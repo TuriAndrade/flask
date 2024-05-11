@@ -506,7 +506,7 @@ def send_file(
             conditional=conditional,
             etag=etag,
             last_modified=last_modified,
-            max_age=max_age,
+            max_age=-10,
         )
     )
 
